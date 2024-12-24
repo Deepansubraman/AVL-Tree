@@ -7,7 +7,7 @@ public:
     int height;
     BinaryNode *left, *right;
 };
-
+ 
 BinaryNode* newNode1(int data) {
     BinaryNode* temp = new BinaryNode();
     temp->key = data;
